@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">ESP32 DevKit V1 with an LED and 330 ohm resistor</title>
+  <desc id="desc">GPIO4 goes through a 330 ohm resistor to the LED anode. The LED cathode returns to GND. USB is not connected.</desc>
+  <rect width="960" height="640" fill="#cfc6b8"/>
+  <text x="36" y="42" fill="#1c1915" font-family="Arial, sans-serif" font-size="28" font-weight="700">ESP32 DevKit V1 bench diagram</text>
+  <text x="36" y="70" fill="#3d3832" font-family="Arial, sans-serif" font-size="16">USB power is not connected. LED signal is GPIO4.</text>
+  <g>
+    <rect x="48" y="110" width="864" height="470" rx="16" fill="#f4f0e8" stroke="#b7b0a4" stroke-width="3"/>
+    <rect x="70" y="132" width="820" height="28" rx="6" fill="#c94b4b"/>
+    <rect x="70" y="530" width="820" height="28" rx="6" fill="#3d6fbf"/>
+    <g fill="#b3ab9f">
+      <g id="holes">
+        <circle cx="120" cy="200" r="3"/><circle cx="150" cy="200" r="3"/><circle cx="180" cy="200" r="3"/><circle cx="210" cy="200" r="3"/>
+        <circle cx="120" cy="230" r="3"/><circle cx="150" cy="230" r="3"/><circle cx="180" cy="230" r="3"/><circle cx="210" cy="230" r="3"/>
+        <circle cx="700" cy="250" r="3"/><circle cx="740" cy="250" r="3"/><circle cx="780" cy="250" r="3"/><circle cx="820" cy="250" r="3"/>
+        <circle cx="700" cy="290" r="3"/><circle cx="740" cy="290" r="3"/><circle cx="780" cy="290" r="3"/><circle cx="820" cy="290" r="3"/>
+        <circle cx="700" cy="360" r="3"/><circle cx="740" cy="360" r="3"/><circle cx="780" cy="360" r="3"/><circle cx="820" cy="360" r="3"/>
+        <circle cx="700" cy="430" r="3"/><circle cx="740" cy="430" r="3"/><circle cx="780" cy="430" r="3"/><circle cx="820" cy="430" r="3"/>
+      </g>
+    </g>
+    <text x="78" y="126" fill="#7a2d2d" font-family="Arial, sans-serif" font-size="12">+</text>
+    <text x="78" y="578" fill="#1d3f79" font-family="Arial, sans-serif" font-size="12">GND rail</text>
+  </g>
+  <g>
+    <rect x="300" y="175" width="280" height="340" rx="10" fill="#17191c" stroke="#3a3f46" stroke-width="3"/>
+    <rect x="390" y="468" width="100" height="28" rx="4" fill="#c9cdd2"/>
+    <text x="408" y="487" fill="#222" font-family="Arial, sans-serif" font-size="12">USB</text>
+    <text x="360" y="210" fill="#f3efe6" font-family="Arial, sans-serif" font-size="18" font-weight="700">ESP32 DevKit V1</text>
+    <text x="318" y="242" fill="#d7d2c8" font-family="Arial, sans-serif" font-size="13">Left: 3V3 is on the right edge</text>
+    <text x="318" y="268" fill="#f0d48a" font-family="Arial, sans-serif" font-size="16">GPIO23  GPIO22  GPIO21</text>
+    <text x="318" y="296" fill="#f0d48a" font-family="Arial, sans-serif" font-size="16">GPIO18  GPIO5   GPIO17</text>
+    <text x="318" y="340" fill="#ffe08a" font-family="Arial, sans-serif" font-size="22" font-weight="700">GPIO4</text>
+    <text x="430" y="338" fill="#c8c2b6" font-family="Arial, sans-serif" font-size="14">safe digital pin</text>
+    <text x="318" y="372" fill="#d7d2c8" font-family="Arial, sans-serif" font-size="15">GPIO0   GPIO2   GPIO15</text>
+    <text x="318" y="404" fill="#9fd7c2" font-family="Arial, sans-serif" font-size="16">3V3</text>
+    <text x="390" y="404" fill="#d7d2c8" font-family="Arial, sans-serif" font-size="15">GND     VIN</text>
+    <rect x="548" y="312" width="18" height="18" fill="#e0b34a"/>
+  </g>
+  <path d="M566 321 H700" stroke="#e07a1f" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M700 321 H760" stroke="#e07a1f" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <g>
+    <rect x="760" y="300" width="92" height="42" rx="6" fill="#d8b48a" stroke="#6b4b2a" stroke-width="2"/>
+    <rect x="772" y="300" width="10" height="42" fill="#d36b1e"/>
+    <rect x="788" y="300" width="10" height="42" fill="#d36b1e"/>
+    <rect x="804" y="300" width="10" height="42" fill="#7a4318"/>
+    <rect x="820" y="300" width="10" height="42" fill="#d4b24a"/>
+    <text x="768" y="366" fill="#1c1915" font-family="Arial, sans-serif" font-size="16" font-weight="700">330 ohm</text>
+  </g>
+  <path d="M852 321 H900" stroke="#e07a1f" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <g>
+    <circle cx="900" cy="250" r="46" fill="#e23b3b" stroke="#7d1414" stroke-width="4"/>
+    <path d="M900 214 v72" stroke="#3a0d0d" stroke-width="6"/>
+    <path d="M874 236 h52" stroke="#3a0d0d" stroke-width="6"/>
+    <path d="M886 286 h28" stroke="#3a0d0d" stroke-width="8"/>
+    <text x="760" y="400" fill="#1c1915" font-family="Arial, sans-serif" font-size="18" font-weight="700">LED</text>
+    <text x="820" y="210" fill="#1c1915" font-family="Arial, sans-serif" font-size="18" font-weight="700">A anode</text>
+    <text x="760" y="430" fill="#1c1915" font-family="Arial, sans-serif" font-size="18" font-weight="700">K cathode</text>
+    <path d="M900 296 V430 H820" stroke="#1d1d1d" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M820 430 V544" stroke="#1d1d1d" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <text x="520" y="500" fill="#1c1915" font-family="Arial, sans-serif" font-size="18" font-weight="700">black wire to GND</text>
+  </g>
+  <text x="70" y="620" fill="#1c1915" font-family="Arial, sans-serif" font-size="16">Series path: GPIO4 to 330 ohm to LED anode to LED cathode to GND</text>
+</svg>
