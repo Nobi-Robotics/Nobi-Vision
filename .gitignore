@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env
+.env.local
+.env.*.local
+certs
+*.pem
+.DS_Store
+npm-debug.log*
+tsconfig.tsbuildinfo
+.vercel
